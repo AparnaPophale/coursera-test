@@ -1,0 +1,140 @@
+body {
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav{
+  background-color: grey;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  padding-top: 15px;
+}
+
+.navbar-brand h1 {
+  color: Black;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+
+}
+
+#nav-list li {
+  text-align: center;
+  background: white;
+}
+#nav-list a:hover {
+   text-align: center;
+  background: white;
+
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black ;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  /*margin-top: -30px;*/
+}
+
+
+#Our-Menu {
+  color:black;
+  text-align: center;
+  font-size: 2em;
+  font-color:black; 
+  font-weight: bold;
+}
+#Chicken span{
+    font-size: 1.6em
+}
+
+#Chicken {
+  color:black;
+  background: grey;
+  border: 1.5px solid black;
+  
+  font-color:black;
+  font-weight:bold;
+  /*text-align: center;*/
+}
+
+#Chicken p{
+  text-align: left;
+}
+
+/***Media Queries***/
+
+@media (min-width: 1200px){
+  .navbar-header button.navbar-toggle{
+    visibility: hidden;
+  }
+  #nav-list{
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .navbar-header button.navbar-toggle{
+    visibility: hidden;
+  }
+  #nav-list{
+    visibility: hidden;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  .navbar-header button.navbar-toggle{
+    visibility: hidden;
+  }
+
+  #nav-list{
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 767px){
+
+   .navbar-header button.navbar-toggle{
+    visibility: visible;
+  }
+  #nav-list li a{
+  color:black;
+  text-align: center;
+  background: white;
+  
+}
+
+}
+
+@media (max-width: 479px) {
+
+     .navbar-header button.navbar-toggle{
+    visibility: visible;
+      } 
+  .navbar-brand h1{
+    font-size: 1.5em;
+  }
+  #Our-Menu{
+    font-size: 1.5em;
+  }
+  #Chicken span{
+    font-size: 1.3em
+}
+#nav-list li a{
+  color:black;
+  text-align: center;
+  background: white;
+ }
+
+}
+
+
+
+  
